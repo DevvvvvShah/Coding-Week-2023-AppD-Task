@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Introduction app</string>
+    <string name="about_me"><u>About Me</u></string>
+</resources>
