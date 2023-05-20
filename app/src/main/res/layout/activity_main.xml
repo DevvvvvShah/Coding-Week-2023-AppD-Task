@@ -27,13 +27,14 @@
         android:background="#EBEFED"
         android:cropToPadding="true"
         android:elevation="10dp"
+        android:importantForAccessibility="no"
         android:padding="2dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/_06q5z6o9t291"
-        android:importantForAccessibility="no" />
+        app:srcCompat="@drawable/untitled" />
 
     <TextView
         android:id="@+id/textView"
@@ -41,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Your Name"
+        android:text="@string/Name"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#F1F4F2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,6 +64,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:tag="https://github.com/DevvvvvShah"
+            android:onClick="openBrowser"
+            android:importantForAccessibility="no"
             app:srcCompat="@drawable/github_logo" />
 
         <ImageView
@@ -72,6 +76,9 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:layout_weight="1"
+            android:tag="https://www.linkedin.com/in/dev-shah-617498252"
+            android:onClick="openBrowser"
+            android:importantForAccessibility="no"
             app:srcCompat="@drawable/linkedin_logo" />
 
         <ImageView
@@ -79,6 +86,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:tag="https://instagram.com/d_shah_294?igshid=OTk0YzhjMDVlZA=="
+            android:onClick="openBrowser"
+            android:importantForAccessibility="no"
             app:srcCompat="@drawable/instagram_logo" />
     </LinearLayout>
 
@@ -101,7 +111,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel ultrices elit, eget rhoncus turpis. In est lacus, placerat sit amet justo a, rhoncus iaculis lectus. Nam pulvinar purus augue, sit amet sagittis libero malesuada vel. Etiam viverra, elit non efficitur mattis, nibh lacus rhoncus dolor, sit amet fermentum purus velit eget risus. Curabitur ut semper metus, eget eleifend arcu. Sed vitae arcu tellus. Vivamus sit amet ligula tortor."
+        android:text="@string/intro"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#E1E1E1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,6 +126,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:scaleType="fitCenter"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

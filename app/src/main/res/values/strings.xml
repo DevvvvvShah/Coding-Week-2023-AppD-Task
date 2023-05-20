@@ -1,4 +1,6 @@
 <resources>
-    <string name="app_name">Introduction app</string>
+    <string name="app_name">Dev Shah\'s Introduction</string>
     <string name="about_me"><u>About Me</u></string>
+    <string name="intro">Hello, this is Dev! I\'m from Ahmedabad and I\'m very excited to be developing apps. I\'ve always wanted to learn this, and I\'m very excited to finally get to learn it. My other hobbies include playing games, playing tennis, reading books and watching movies! Oh, and I\'ve also done some work for a morrowind mod called Tamriel Rebuilt. While it wasn\'t app dev in a traditional sense, it helped me learn working with a team and make me excited to develop other things.</string>
+    <string name="Name">Dev Shah</string>
 </resources>
